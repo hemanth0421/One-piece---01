@@ -39,15 +39,44 @@ html{
     background-color:  burlywood;
 }
 .photo{
-    margin-left: 20px;
+    margin-left: 2000457F
+}
+span{
+    color: #C1121F;
+    font-size: 28pt;
 }
 
-@media (max-width: 1280px){
+@media (max-width: 640px){
     .main-container{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-content: center;
+    }
+
+    .crew-member{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0rem;
+        margin: 0px;
+    }
+
+    .info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 2rem;
+    }
+
+
+}
+
+@media(max-width: 1280px){
+    .main-container{
+        display: flex;
+        flex-direction: column;
     }
 
     .crew-member{
